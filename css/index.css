@@ -71,6 +71,8 @@ input {/*-webkit-appearance:none;*/outline: none}
 .m1con .m1r{
     flex: 1;
     padding-top: 0.1rem;
+    padding-right: .04rem;
+    box-sizing: border-box;
 }
 .m1con .m1r p{
     font:400 .18rem "microsoft yahei";
@@ -204,6 +206,8 @@ input {/*-webkit-appearance:none;*/outline: none}
     background-size: 6.11rem;
     margin:auto;
     padding-top: 0.3rem;
+    position: relative;
+    left: -.18rem;
 }
 .m2conb .cyj{
     height: .39rem;
@@ -215,8 +219,7 @@ input {/*-webkit-appearance:none;*/outline: none}
 	font:400 .26rem  "microsoft yahei";
 	text-align: center;
 	color:#fff;
-	letter-spacing: 4px;
-	margin-left: -15px;
+	letter-spacing: .04rem;
 }
 .m2conb p strong{
     color: #fdbe64;
