@@ -60,21 +60,23 @@ input {/*-webkit-appearance:none;*/outline: none}
     background: url(../images/m1.png) no-repeat center top;
     -webkit-background-size: 6.79rem;
     background-size: 6.79rem;
+    box-sizing: border-box;
 }
 .m1con .m1l{
-    width:2.76rem;
+    width:2.08rem;
     font: 600 .3rem/.8rem "microsoft yahei";
     text-align: center;
     color: #aa1806;
 }
 .m1con .m1r{
     flex: 1;
+    padding-top: 0.1rem;
 }
 .m1con .m1r p{
     font:400 .18rem "microsoft yahei";
 	text-align: left;
     color:#777777; 
-    margin: .1rem auto;
+    margin: .04rem auto;
 }
 .m1con .m1r h4{
     font:400 .18rem "microsoft yahei";
@@ -182,8 +184,8 @@ input {/*-webkit-appearance:none;*/outline: none}
 	font:400 .33rem/.92rem  "microsoft yahei";
 	text-align: center;
 	color:#fff;
-	letter-spacing: 4px;
-	margin-left: -15px;
+	letter-spacing: .02rem;
+	margin-left: -.15rem;
 }
 .lbw a{
 	width: 1.32rem;
@@ -289,7 +291,7 @@ input {/*-webkit-appearance:none;*/outline: none}
     width: 6.7rem;
     height: 3.18rem;
     margin: auto;
-    padding-top: 0.4rem;
+    padding-top: 0.3rem;
     background: url(../images/m6.png) no-repeat center top;
     -webkit-background-size: 6.7rem;
     background-size: 6.7rem;
@@ -307,7 +309,7 @@ input {/*-webkit-appearance:none;*/outline: none}
     background: url(../images/t7.png) no-repeat center top;
     -webkit-background-size: 4.41rem;
     background-size: 4.41rem;
-    margin-bottom: 0.2rem;
+    margin-bottom: 0.1rem;
 }
 .m6 .row1{
     font:400 .24rem  "microsoft yahei";
