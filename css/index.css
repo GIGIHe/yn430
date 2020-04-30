@@ -14,6 +14,95 @@ input {/*-webkit-appearance:none;*/outline: none}
 .main{width: 7.5rem;margin: 0 auto}
 .zg-wrap{margin: 0 auto;width: 7.5rem;}
 
+header {
+    width: 7.5rem;
+    height: .8rem;
+    background: #f2f2f2;
+}
+header a {
+    font:700 .2rem/.4rem "microsoft yahei";
+    color:#fff;
+}
+header a img {
+    float: left;
+}
+header .logo {
+    display: block;
+    float: left;
+    width: 2rem;
+    height: .36rem;
+    margin-top: .2rem;
+    margin-left: .3rem;
+}
+header .zgfb {
+    display: block;
+    float: right;
+    width: 1.15rem;
+    height: .36rem;
+    margin-right: .3rem;
+    margin-top: .2rem;
+}
+header .logo img {
+    width: .75rem;
+    height: .34rem;
+    margin-right: .1rem;
+}
+header .zgfb img {
+    width: .27rem;
+    height: .24rem;
+    margin-top: .12rem;
+}
+header.fixed {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    margin-left: -3.75rem;
+    z-index: 899;
+}
+.navbar {
+    box-shadow: none;
+    background: rgba(70,70,70,0);
+}
+.navbar.active {
+    background: rgb(255,255,255);
+    transition: background 3s;
+}
+.navbar.active a {
+    color:#000;
+}
+/*footer*/
+.foot{
+    position: fixed;
+    bottom:0;
+    width:7.5rem;
+    height:.9rem;
+    overflow: hidden;
+    z-index:999;
+}
+.foot a{
+    float: left;
+    width:3.75rem;
+    font:.26rem/0.9rem 'Microsoft YaHei';
+    text-align: center;
+}
+.foot a:first-child{
+    background: #f2f2f2;
+    color: #000;
+}
+.foot a:first-child img {
+    width: .47rem;
+    height: .4rem;
+    margin-right: .1rem;
+}
+.foot a:last-child{
+    background: #dc2f3c;
+    color: #fff;
+}
+.foot a:last-child img {
+    width: .3rem;
+    height: .38rem;
+    margin-right: .1rem;
+}
 
 
 /*m_banner*/
@@ -30,8 +119,9 @@ input {/*-webkit-appearance:none;*/outline: none}
     text-indent: -9999px;
     font-size: .2rem;
 }
-.miancon{
+.maincon{
     width: 7.5rem;
+    padding-bottom: 1.2rem;
     height: auto;
     background: #a81100;
 } 
@@ -225,6 +315,214 @@ input {/*-webkit-appearance:none;*/outline: none}
     color: #fdbe64;
     font-size: .3rem;
 }
+.m3{
+    margin-top: 0.3rem;   
+   }
+.m3 h2{
+height: .95rem;
+background:url(../images/t3.png) no-repeat center top;
+-webkit-background-size: 6.37rem;
+background-size: 6.37rem;
+margin-bottom: 0.3rem;
+}
+.m3 .tab{
+    width: 6.8rem;
+    height: auto;
+    margin: auto;
+    background: #7b1004;
+    padding: .2rem 0;
+}
+.m3 .tab .tab_head{
+    display: flex;
+    width: 6.15rem;
+    font: 400 .35rem "microsoft yahei";
+    text-align: center;
+    color: #f9d5a1;
+    margin: auto;
+    margin-bottom: 0.2rem;
+}
+.m3 .tab .tab_head p{
+    color: #f9d5a1;
+	font:400 .2rem "microsoft yahei";
+    text-align: center;
+}
+.m3 .tab .tab_head p:nth-child(1){
+	width: 36%;
+}
+.m3 .tab .tab_head p:nth-child(2){
+	width: 26%;
+}
+.m3 .tab .tab_head p:nth-child(3){
+	width: 22%;
+}
+.m3 .tab .tab_head p:last-child{
+	width: 16%;
+}
+.m3  .tabw{
+    width: 6.45rem;
+    height: 4rem;
+    background: #f5dbbc;
+    margin: auto;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+table{
+    width: 6.15rem;
+    margin: auto;
+	background: #fff;
+	border-collapse: collapse;
+	box-sizing: border-box;
+	position: relative;
+}
+table::before{
+	content: "";
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: .03rem;
+	background: #f96c29;
+}
+table td{
+	border: 1px solid #f7f7f7;
+	color: #000;
+	font:400 .2rem "microsoft yahei";
+	text-align: center;
+    padding: .04rem .1rem;
+}
+table tr td:nth-child(1){
+    width: 36%;
+}
+table tr td:nth-child(2){
+    width: 26%;
+}
+table tr td:nth-child(3){
+    width: 22%;
+}
+
+table td.last{
+    border-right: none;
+    width: 16%;
+}
+
+table td a{
+	display: inline-block;
+	border-radius: .1rem;
+	padding: .1rem;
+	font:400 .2rem "microsoft yahei";
+	color: #fff;
+	text-align: center;
+	background: #af1e06;
+}
+.m4{
+    margin: auto;
+    margin-top: 0.3rem;  
+    width: 6.85rem;
+    padding: .2rem 0;
+    background: #f3dfae; 
+   }
+.m4 h2{
+    height: .68rem;
+    background:url(../images/t4.png) no-repeat center top;
+    -webkit-background-size: 5rem;
+    background-size: 5rem;
+    margin-bottom: 0.3rem;
+}  
+.m4 .formw{
+    width: 6.5rem;
+    margin: auto;
+    background: #b20202;
+    padding: .15rem 0;
+}
+.m4 .formw h4{
+    height: .41rem;
+    background:url(../images/yyue.png) no-repeat center top;
+    -webkit-background-size: 3.35rem;
+    background-size: 3.35rem;
+    margin-bottom: 0.1rem;
+}
+.m4 .time{
+    font:400 .2rem  "microsoft yahei";
+	text-align: center;
+    color:#f3dfae;
+}
+.formw .ll{
+	width: 2.8rem;
+	height: 1px;
+	margin: auto;
+	margin-top: .1rem;
+	background: #f3dfae;
+}
+select,input{
+    appearance: none;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   outline: none;
+   border: none;
+  }
+  
+  .form input::-webkit-input-placeholder { /* WebKit browsers */
+      color: #999;
+  }
+  
+  .form input::-moz-placeholder { /* Mozilla Firefox 19+ */
+      color: #999;
+  }
+  
+  .form input:-ms-input-placeholder { /* Internet Explorer 10+ */
+      color: #999;
+  }
+  .form{
+      width: 5rem;
+      margin: auto;
+  }
+  .form p{
+      width: 100%;
+      height: 0.6rem;
+      background: #f3dfae;
+      margin-top: .15rem;
+      display: flex;
+  }
+  .form p span{
+      width: 1.5rem;
+      font:400 .25rem/.6rem "microsoft yahei";
+      color: #b20202;
+      text-align: center;
+  }
+  .form p input,.form p select{
+      width: 2.55rem;
+      height: .4rem;
+      margin-top: .1rem;
+      font:400 .25rem/.4rem "microsoft yahei";
+      color: #999;
+      background: #fff;
+      text-indent: .1rem;
+  }
+  .form p input#yzm{
+      width: 2rem;
+  }
+  .form p a{
+      width:1.2rem;
+      height: .4rem;
+      font-size: .2rem;
+      text-align: center;
+      background: #fff;
+      margin-top: .1rem;
+      margin-left: 0.2rem;
+      line-height: .4rem;
+      color: #b20202;
+  }
+  .form #submit{
+      display: block;
+      width: 2.17rem;
+      height: .53rem;
+      margin: auto;
+      margin-top: .2rem;
+      background:url(../images/clyy.png) no-repeat center top;
+      -webkit-background-size: 2.17rem;
+      background-size: 2.17rem;
+  }
 .m5{
  margin-top: 0.3rem;   
 }
@@ -334,4 +632,7 @@ input {/*-webkit-appearance:none;*/outline: none}
     background:url(../images/xqzx.png) no-repeat center top;
     -webkit-background-size: 1.11rem;
     background-size: 1.11rem;
+}
+.m6 .row1 p {
+    border-bottom: 1px solid #fff;
 }
