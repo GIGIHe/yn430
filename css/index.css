@@ -360,7 +360,7 @@ margin-bottom: 0.3rem;
 }
 .m3  .tabw{
     width: 6.45rem;
-    height: 4rem;
+    max-height: 5.4rem;
     padding: .2rem 0;
     background: #f5dbbc;
     margin: auto;
