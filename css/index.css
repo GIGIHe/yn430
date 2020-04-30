@@ -361,10 +361,12 @@ margin-bottom: 0.3rem;
 .m3  .tabw{
     width: 6.45rem;
     height: 4rem;
+    padding: .2rem 0;
     background: #f5dbbc;
     margin: auto;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
+    box-sizing: border-box;
 }
 table{
     width: 6.15rem;
